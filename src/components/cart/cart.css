@@ -1,0 +1,19 @@
+/* Container for the cart and price sections */
+.cart-container {
+    display: flex;
+    flex-direction: row; /* Arrange children horizontally */
+    justify-content: space-between; /* Space out the children */
+    align-items: flex-start; /* Align children at the top */
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for the cart list section */
+.cart-container .Items {
+    flex: 3; /* Take up more space than the price section */
+    width: 80%; /* Optional: Limit width if needed */
+}
+
+
